@@ -1,0 +1,34 @@
+{
+  "name": "yidas/yii2-fontawesome",
+  "description": "Font Awesome Asset Bundle for Yii2 framework",
+  "keywords": [
+    "yii",
+    "font awesome",
+    "asset",
+    "asset bundle"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/yidas/yii2-fontawesome/issues",
+    "source": "https://github.com/yidas/yii2-fontawesome"
+  },
+  "authors": [
+    {
+      "name": "Nick Tsai",
+      "email": "myintaer@gmail.com",
+      "homepage": "https://github.com/yidas/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.0",
+    "fortawesome/font-awesome": "~4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "yidas\\yii\\fontawesome\\": "src"
+    }
+  }
+}
