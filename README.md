@@ -26,7 +26,7 @@ The preferred install way is through [Composer](http://getcomposer.org/download/
 composer require yidas/yii2-fontawesome
 ```
 
-Or you could also edit `composer.json` with adding package in require section then run `composer update`.
+Or you could edit `composer.json` with adding package in require section then run `composer update`.
 
 ```
 "yidas/yii2-fontawesome": "~2.0.0"
