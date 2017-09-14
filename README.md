@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://www.vectorlogo.zone/logos/font-awesome/font-awesome-card.png" height="100px">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+        <!-- <img src="https://avatars0.githubusercontent.com/u/993323" height="100px"> -->
     </a>
     <h1 align="center">Font Awesome Extension for Yii 2 </h1>
     <br>
