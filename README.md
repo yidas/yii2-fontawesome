@@ -69,7 +69,7 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        'yidas\yii\fontawesome\FontawesomeAsset'
+        'yidas\yii\fontawesome\FontawesomeAsset',
     ];
 }
 ```
