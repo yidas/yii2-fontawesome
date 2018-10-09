@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://fontawesome.io/" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/font-awesome/font-awesome-card.png" height="100px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Font_Awesome_5_logo_black.svg/220px-Font_Awesome_5_logo_black.svg.png" height="28">
     </a>
 <!--     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
@@ -12,8 +12,9 @@
 Font Awesome Asset Bundle for Yii2 framework
 
 [![Latest Stable Version](https://poser.pugx.org/yidas/yii2-fontawesome/v/stable?format=flat-square)](https://packagist.org/packages/yidas/yii2-fontawesome)
-[![Latest Unstable Version](https://poser.pugx.org/yidas/yii2-fontawesome/v/unstable?format=flat-square)](https://packagist.org/packages/yidas/yii2-fontawesome)
 [![License](https://poser.pugx.org/yidas/yii2-fontawesome/license?format=flat-square)](https://packagist.org/packages/yidas/yii2-fontawesome)
+[![Total Downloads](https://poser.pugx.org/yidas/yii2-fontawesome/downloads?format=flat-square)](https://packagist.org/packages/yidas/yii2-fontawesome)
+[![Monthly Downloads](https://poser.pugx.org/yidas/yii2-fontawesome/d/monthly?format=flat-square)](https://packagist.org/packages/yidas/yii2-fontawesome)
 
 This is the [Font Awesome](http://fontawesome.io/) extension for [Yii framework 2.0](http://www.yiiframework.com/). It encapsulates [Font Awesome](https://github.com/FortAwesome/Font-Awesome) distribution assets and thus makes using Font Awesome in Yii applications extremely easy.
 
@@ -69,7 +70,7 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        'yidas\yii\fontawesome\FontawesomeAsset'
+        'yidas\yii\fontawesome\FontawesomeAsset',
     ];
 }
 ```
