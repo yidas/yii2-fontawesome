@@ -6,6 +6,7 @@ namespace yidas\yii\fontawesome;
  * Font-Awesome Dependent Source Asset 
  *
  * @author  Nick Tsai <myintaer@gmail.com>
+ * @version 4.0.0
  * @package fortawesome/font-awesome
  * @see     https://github.com/FortAwesome/Font-Awesome
  */
