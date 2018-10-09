@@ -21,14 +21,19 @@ class FontawesomeAsset extends \yii\web\AssetBundle
     ];
 
     /**
-     * @var string|bool Enable by specifying a CDN version, eg. `'4.7.0'` or set `false` to disable CDN mode
+     * @var string CDN version for CDN mode, eg. `'4.7.0'`
      */
-    public $cdnVersion = false;
+    public $cdnVersion = '4.7.0';
 
     /**
-     * @var string Sprintf format or fixed URL of Font-Awesome CDN URL, enabled while $cdnVersion is true or not empty
+     * @var bool Enable or disable CDN mode
      */
-    public $cdnUrl = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/css/font-awesome.min.css';
+    public $cdn = false;
+
+    /**
+     * @var array Sprintf format or fixed URL of Font-Awesome CDN URL
+     */
+    public $cdnCSS = ['https://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/css/font-awesome.min.css'];
 
     /**
      * Source handler
@@ -36,15 +41,14 @@ class FontawesomeAsset extends \yii\web\AssetBundle
     public function init()
     {
         // CDN mode
-        if ($this->cdnVersion) {
-
+        if ($this->cdn) {
             // Unset sourcePath
             $this->sourcePath = NULL;
-
-            // Rewrite css
-            $this->css = [
-                sprintf($this->cdnUrl, $this->cdnVersion)
-                ];
+            // Rewrite CSS
+            $this->css = [];
+            foreach ($this->cdnCSS as $key => $url) {
+                $this->css[] = sprintf($url, $this->cdnVersion);
+            }
         }
 
         parent::init();
