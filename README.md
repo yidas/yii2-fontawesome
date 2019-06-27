@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://fontawesome.io/" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/font-awesome/font-awesome-card.png" height="100px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Font_Awesome_5_logo_black.svg/220px-Font_Awesome_5_logo_black.svg.png" height="28">
     </a>
 <!--     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
