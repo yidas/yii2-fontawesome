@@ -20,6 +20,10 @@ class FontawesomeAsset extends \yii\web\AssetBundle
     public $css = [
         'css/all.min.css',
     ];
+    
+    public $js = [
+        'js/all.min.js'
+    ];
 
     /**
      * @var string CDN version for CDN mode, eg. `'4.7.0'`
