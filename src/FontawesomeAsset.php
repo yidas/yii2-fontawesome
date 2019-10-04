@@ -18,7 +18,11 @@ class FontawesomeAsset extends \yii\web\AssetBundle
     public $sourcePath = '@vendor/fortawesome/font-awesome';
 
     public $css = [
-        'css/font-awesome.min.css',
+        'css/all.min.css',
+    ];
+    
+    public $js = [
+        'js/all.min.js'
     ];
 
     /**

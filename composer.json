@@ -24,7 +24,7 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "~2.0.0",
-    "fortawesome/font-awesome": "~4.7"
+    "fortawesome/font-awesome": "^5.11"
   },
   "autoload": {
     "psr-4": {
