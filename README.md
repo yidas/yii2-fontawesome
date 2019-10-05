@@ -86,7 +86,7 @@ You could switch Asset to use CDN distribution by configuring `config` file:
         'bundles' => [
             'yidas\yii\fontawesome\FontawesomeAsset' => [
                 'cdn' => true,
-                // 'cdnVersion' => '4.7.0',
+                // 'cdnVersion' => '5.11.0',
             ],
         ],
     ],
@@ -102,7 +102,7 @@ You could also specify CDN source you like:
     'bundles' => [
         'yidas\yii\fontawesome\FontawesomeAsset' => [
             'cdn' => true,
-            'cdnCSS' => ['//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'],
+            'cdnCSS' => ['//maxcdn.bootstrapcdn.com/font-awesome/5.11.0/css/font-awesome.min.css'],
         ],
     ],
 ],
@@ -126,7 +126,7 @@ USAGE
 
 #### Specify a Font-Awesome version
 
-    composer require fortawesome/font-awesome 4.7.0
+    composer require fortawesome/font-awesome 5.11.0
     
     
     
