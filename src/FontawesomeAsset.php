@@ -26,9 +26,9 @@ class FontawesomeAsset extends \yii\web\AssetBundle
     ];
 
     /**
-     * @var string CDN version for CDN mode, eg. `'4.7.0'`
+     * @var string CDN version for CDN mode, eg. `'5.11.0'`
      */
-    public $cdnVersion = '4.7.0';
+    public $cdnVersion = '5.11.0';
 
     /**
      * @var bool Enable or disable CDN mode
@@ -40,6 +40,11 @@ class FontawesomeAsset extends \yii\web\AssetBundle
      */
     public $cdnCSS = ['https://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/css/font-awesome.min.css'];
 
+    /**
+     * @var array Sprintf format or fixed URL of Font-Awesome CDN URL
+     */
+    public $cdnJS = ['https://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/js/all.min.js'];
+    
     /**
      * Source handler
      */
@@ -53,6 +58,11 @@ class FontawesomeAsset extends \yii\web\AssetBundle
             $this->css = [];
             foreach ($this->cdnCSS as $key => $url) {
                 $this->css[] = sprintf($url, $this->cdnVersion);
+            }
+            // Rewrite JS
+            $this->js = [];
+            foreach ($this->cdnJS as $key => $url) {
+                $this->js[] = sprintf($url, $this->cdnVersion);
             }
         }
 
