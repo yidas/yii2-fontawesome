@@ -33,7 +33,7 @@ composer require yidas/yii2-fontawesome
 Or you could edit `composer.json` with adding package in require section then run `composer update`.
 
 ```
-"yidas/yii2-fontawesome": "~2.0.0"
+"yidas/yii2-fontawesome": "~5.0.0"
 ```
 
 ---
