@@ -47,7 +47,7 @@ Register or depend Asset into your application:
 yidas\yii\fontawesome\FontawesomeAsset
 ```
     
-For eaxmple, to register Font Awesome assets in view :
+For example, to register Font Awesome assets in view :
 
 ```php
 \yidas\yii\fontawesome\FontawesomeAsset::register($this);
